@@ -1,4 +1,3 @@
-/* General Styling for Assignments Page */
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +11,6 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
-
-/* Header Section */
 header {
     background-color: #333;
     padding: 20px 0;
