@@ -77,7 +77,6 @@ nav ul li a:hover {
     background-color: #ff4500;
 }
 
-/* Main Section */
 main {
     margin-top: 40px;
     text-align: center;
@@ -105,7 +104,6 @@ main {
     color: #555;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.5rem;
