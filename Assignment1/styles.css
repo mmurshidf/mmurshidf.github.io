@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?technology,code');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    margin-top: auto;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+}
+
+/* Main Section */
+main {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about-me {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-me h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
